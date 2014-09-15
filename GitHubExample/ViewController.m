@@ -31,6 +31,7 @@
     NSLog(@"Selamat Tengah Hari Dunia");
        NSLog(@"This is muz");
     NSLog(@"This is muz second change");
+     NSLog(@"This is Imal");
 }
 
 @end
