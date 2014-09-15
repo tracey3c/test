@@ -34,6 +34,7 @@
                                 </state>
                                 <connections>
                                     <action selector="pressButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="izD-yh-ck2"/>
+                                    <segue destination="898-vZ-hsf" kind="push" id="dSE-80-Ug6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,6 +45,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="639" y="16"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hAv-bi-3gD">
+            <objects>
+                <viewController id="898-vZ-hsf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7ku-Ja-B8K"/>
+                        <viewControllerLayoutGuide type="bottom" id="R9k-cJ-UGt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9YX-RR-0q4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O6e-T2-z3p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6mn-wn-vz0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="-722"/>
         </scene>
         <!--Table View Controller - Root View Controller-->
         <scene sceneID="6Vf-2h-fjo">
@@ -72,7 +92,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fzi-By-rhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="36"/>
+            <point key="canvasLocation" x="1170" y="16"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="80Y-Rg-G3f">
