@@ -30,6 +30,7 @@
     NSLog(@"Selamat Pagi Dunia");
     NSLog(@"Selamat Tengah Hari Dunia");
        NSLog(@"This is muz");
+    NSLog(@"This is muz second change");
 }
 
 @end
