@@ -29,6 +29,7 @@
     NSLog(@"Hello World");
     NSLog(@"Selamat Pagi Dunia");
     NSLog(@"Selamat Tengah Hari Dunia");
+       NSLog(@"This is muz");
 }
 
 @end
